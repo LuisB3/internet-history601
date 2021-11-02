@@ -2,3 +2,16 @@ h1 {
 .red
 color: red;
 }
+
+<div style = "position:relative; right:750px; top:150px; background-color:white;">
+<img src="Images/eisenhower.jpg" alt="content"; height="400"; width="400";/>
+
+FOR FONT:
+ <div style="position: relative; left: 500px; top: 150px; font-size: 12pt; font-family: Cambria;">
+    <ul>
+        <li> In October 1957 the Soviet Union launched Sputnick to catch up and suppress the Soviet’s in space technology President Eisenhower established ARPA.
+        </li>
+        <li>The military branches each had their own research departments (navy, army, etc.), once money was sent for research purposes, eventually a problem was highlighted: a limited amount of people (only those enlisted in the military) were capable of conducting research to establish better methodology, i.e. development of bullets. A lot of valuable talent was left out.
+        </li>
+    </ul>
+</div>
