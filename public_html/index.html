@@ -33,7 +33,7 @@ This will often show up in search results.">
         #logo {
             float: left;
             width: 367px;
-            height: 200px;
+            height: 100px;
         }
         #wrapper {
             width: 960px;
@@ -46,30 +46,51 @@ This will often show up in search results.">
         }
 
         #primaryContent {
+        clear: both;
+            width: 1500px;
             float: left;
-            width: 66%;
-
+            margin-right: auto;
+            margin-left: auto;
         }
 
+#footer {
+    text-align: center;
+    float: bottom;
+    position: fixed;
+}
 
+#topContent {
+    margin-left: auto;
+    margin-right: auto;
+
+}
     </style>
 
 </head>
 <body>
 <div id="wrapper">
     <div id="logo">
-        <img src="Images/Internet.jpeg" alt="logo"/>
+        <img src="Images/Internet.jpeg" alt="logo";/>
     </div>
     <menu id="primaryLinks">
-        <li><a href="index.html">Theory of the Net</a></li>
-        <li><a href="about.html">Advancement of the Net</a></li>
+        <li><a href="theory.html">Theory</a></li>
+        <li><a href="about.html">Early Internet</a></li>
+        <li><a href="technologies.html">Technologies</a></li>
+        <li><a href="advancement.html">Advancement</a></li>
         <li><a href="responsibleparties.html">Important People</a></li>
+        <li><a href="growth.html">Growth</a></li>
     </menu>
 </div>
 
 
+<div id="topContent">
+    Something to write.
+
+
+</div>
+
 <article id="primaryContent">
-    <h1 style="color: darkslateblue; font-weight: bold;font-size: x-large">History of the Internet</h1>
+    <h1 style="color: black; font-size: 50pt; font-family: 'Arial Black'; text-align: center">History of the Internet</h1>
     <p>
     <ul>
         <li style="font-weight: bolder; font-size: larger">Where did the theory of the internet begin?</li>
@@ -86,6 +107,12 @@ This will often show up in search results.">
 
 
 </article>
+<div id="sideContent">
+<img src="Images/binaryblur.jpeg" alt="logo"; width="300"; height="300";/>
+
 </div>
+<footer id="footer";>
+    Sandra Veziroglu & Luis Bastidas <i class="far fa-copyright"></i>
+</footer>
 </body>
 </html>
